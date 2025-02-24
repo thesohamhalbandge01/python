@@ -1,0 +1,69 @@
+creating a variable
+---
+
+# Numeric variables - hold integers and decimal values
+age = 25 # integer
+temperature = 98.6 # float 
+
+# String variables - Stores a sequence of characters enclosed in single or double quotes
+name = "John Doe"
+message = 'Hello, world!'
+
+# Boolean variables - only hold the values true and false
+is_true = True
+is_false = False
+
+# List variables - Stores a collection of items, which can be of different types.
+numbers = [1, 2, 3, 4, 5]
+fruits = ['apple', 'banana', 'orange']
+
+# Tuple variables
+coordinates = (10, 20)
+
+# Dictionary variables
+person = {'name': 'Alice', 'age': 30}
+
+# Set variables
+unique_numbers = {1, 2, 3}
+
+# None variable
+empty_value = None
+
+properties of variables
+---
+
+age = 25
+print(age) # 25
+
+age = 26
+print(age) # 26
+
+rules for variable names
+---
+
+- A variable name can only contain alphabets, numbers and underscores (ie. A-Z, a-z, 0-9, and _).
+- A variable name cannot start with a number.
+- A variable name cannot have spaces in between.
+- Variable names are case-sensitive (age, Age and AGE are three different variables).
+
+type conversion
+---
+
+# implicit conversion 
+
+x = 7
+x = x / 2
+print(x) # Output: 3.5
+
+# explicit conversion
+
+num = '12'
+num = int(num)
+num = num + num (if num='12' then num + num = 1212)
+print(num) # 24
+
+check type of variable
+---
+
+a = 5
+print(type(a)) # Output: <class 'int'>
